@@ -23,7 +23,7 @@ namespace new_ga_e
         {
             InitializeComponent();
 
-            timer1.Interval = 5;
+            timer1.Interval = 30;
             timer1.Tick += new EventHandler(Update);
 
             KeyDown += new KeyEventHandler(OnPress);
@@ -48,7 +48,7 @@ namespace new_ga_e
             Graphics g = e.Graphics;
                 MapModel.DrawMap(g);
             player.PlayAnimation(g);
-            if (player.IsHealing && !player.IsMoving)
+            if (player.IsHealing )
             {
                 PaintAudioGame.Init();
                 PaintAudioGame.PlayAnimation(g);
@@ -63,11 +63,8 @@ namespace new_ga_e
             {
                 if (player.IsMoving)
                     player.Move();
-                
-                
             }
            
-
             Invalidate();
         }
 
@@ -75,6 +72,7 @@ namespace new_ga_e
 
         public void OnPress(object sender, KeyEventArgs e)
         {
+            
             switch (e.KeyCode)
             {
                 case Keys.W:
@@ -102,6 +100,11 @@ namespace new_ga_e
                     player.IsMoving = false;
                     player.IsHealing = true;
                     player.SetAnimationConfiguration(1);
+                    if ((e.KeyCode == Keys.F) && repeat && player.IsHealing)
+                    {
+                        audi.Recording();
+                    }
+                    
                     break;
             }
 
@@ -127,8 +130,11 @@ namespace new_ga_e
                     player.dirY = 0;
                     player.dirX = 0;
                     player.IsHealing = false;
+                    
+                    audi.Stopp();
                     break;
             }
+          
             if (player.dirX == 0 && player.dirY == 0)
             {
                 player.IsMoving = false;
@@ -139,6 +145,7 @@ namespace new_ga_e
                 player.SetAnimationConfiguration(0);
                   
             }
+
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -150,15 +157,12 @@ namespace new_ga_e
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if ((e.KeyCode == Keys.F) && repeat == true && player.IsHealing)
-            {
-                audi.Recording();
-                repeat = false;
-            }
-            else if (!player.IsHealing)
-            {
-                repeat = true;
-            }
+       
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

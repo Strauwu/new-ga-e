@@ -21,7 +21,7 @@ namespace new_ga_e.View
         public static void Init()
         {
             MapModel.Init();
-            audiobar = new Bitmap(Path.Combine(new DirectoryInfo(Directory.GetCurrentDirectory()).Parent.Parent.FullName.ToString(), "sprites\\audiobar.jpg"));
+            audiobar = new Bitmap(Path.Combine(new DirectoryInfo(Directory.GetCurrentDirectory()).Parent.Parent.FullName.ToString(), "sprites\\audio.jpg"));
             powerOfNoise = Audio.powerOfNoise;
 
         }
@@ -29,7 +29,7 @@ namespace new_ga_e.View
 
         public static void PlayAnimation(Graphics g)
         {
-            g.DrawImage(audiobar, new Rectangle(new Point(0, 0), new Size(5*powerOfNoise, 5)), 0,0,10,10, GraphicsUnit.Pixel);
+            g.DrawImage(audiobar, new Rectangle(new Point(0, 0), new Size(powerOfNoise, 10)), 0,0,10,10, GraphicsUnit.Pixel);
         }
     }
 

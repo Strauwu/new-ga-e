@@ -11,12 +11,14 @@ namespace new_ga_e.Controlles
         public static int cellSize = 31;
         public static int[,] map = new int[mapHeight, mapWidth];
         public static Image spriteSheet;
+        public static Image evil;
         public static List<MapParamers> mapObjects;
         public static void Init()
         {
             map = GetMap();
             spriteSheet = new Bitmap(Path.Combine(new DirectoryInfo(Directory.GetCurrentDirectory()).Parent.Parent.FullName.ToString(), "sprites\\backSheet.png"));
             mapObjects = new List<MapParamers>();
+            evil = new Bitmap(Path.Combine(new DirectoryInfo(Directory.GetCurrentDirectory()).Parent.Parent.FullName.ToString(), "sprites\\evil.png"));
         }
 
         public static void SeedMap(Graphics g)
@@ -50,16 +52,23 @@ namespace new_ga_e.Controlles
                         MapParamers mapEntity = new MapParamers(new Point(j * cellSize, i * cellSize), new Size(cellSize, cellSize));
                         mapObjects.Add(mapEntity);
                     }
+                    if (map[i, j] == 14)
+                    {
+                        g.DrawImage(evil, new Rectangle(new Point(j * cellSize, i * cellSize), new Size(cellSize, cellSize)), 0, 0, 32, 31, GraphicsUnit.Pixel);
+                        MapParamers mapEntity = new MapParamers(new Point(j * cellSize, i * cellSize), new Size(cellSize, cellSize));
+                        mapObjects.Add(mapEntity);
+                    }
                 }
             }
         }
+
         public static int[,] GetMap()
         {
             return new int[,]
             {
                 {1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,2},
                 {5,13,13,10,10,10,10,10,0,0,0,0,0,12,12,12,10,10,0,7},
-                {5,0,10,13,0,0,0,10,0,0,0,0,0,12,10,10,10,0,0,7},
+                {5,0,10,13,0,0,0,10,0,14,0,0,0,12,10,10,10,0,0,7},
                 {5,0,-1,10,0,0,0,-1,0,0,0,0,0,0,-1,0,-1,0,0,7},
                 {5,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7},
                 {5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,12,7},
