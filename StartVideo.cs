@@ -15,6 +15,9 @@ namespace new_ga_e
     public partial class StartVideo : Form
     {
         string mp4Path;
+        StartMenu gameWindow = new StartMenu();
+
+        bool IsSkipped = false;
         public StartVideo()
         {
             InitializeComponent();
@@ -22,11 +25,9 @@ namespace new_ga_e
 
         private void axWindowsMediaPlayer1_PlayStateChange(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
         {
-            StartMenu gameWindow = new StartMenu();
-
-            if (e.newState == 8)
+            if (e.newState == 8 && !IsSkipped)
             {
-                this.axWindowsMediaPlayer1.close(); // закрываем сам плеер, чтобы все ресурсы освободились
+                this.axWindowsMediaPlayer1.close(); 
                 this.Controls.Remove(axWindowsMediaPlayer1);
                 gameWindow.Show();
                 this.Hide();
@@ -35,23 +36,34 @@ namespace new_ga_e
 
         private void axWindowsMediaPlayer1_ClickEvent(object sender, AxWMPLib._WMPOCXEvents_ClickEvent e)
         {
-            StartMenu gameWindow = new StartMenu();
+            IsSkipped = true;
+            axWindowsMediaPlayer1.enableContextMenu = false;
+            axWindowsMediaPlayer1.settings.mute = true;
+            this.Hide();
+
             gameWindow.Show();
+            
+           
+
 
         }
 
         private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
         {
-            mp4Path = (Path.Combine(new DirectoryInfo(Directory.GetCurrentDirectory()).Parent.Parent.FullName.ToString(), "sprites\\vid.mp4"));
+            mp4Path = (Path.Combine(new DirectoryInfo(Directory.GetCurrentDirectory()).Parent.Parent.FullName.ToString(), "sprites\\vidd.mp4"));
 
             axWindowsMediaPlayer1.URL = mp4Path;
+            axWindowsMediaPlayer1.enableContextMenu = false;
+
         }
 
         private void StartVideo_Load(object sender, EventArgs e)
         {
             axWindowsMediaPlayer1.settings.autoStart = true;
-
+         
+            axWindowsMediaPlayer1.uiMode = "none";
 
         }
+
     }
 }

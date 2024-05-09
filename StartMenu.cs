@@ -13,10 +13,15 @@ namespace new_ga_e
 {
     public partial class StartMenu : Form
     {
-        Form Form1;
+        private bool isf = true;
+        System.Media.SoundPlayer player = new System.Media.SoundPlayer();
         public StartMenu()
         {
+            player.SoundLocation = "Backmusic.wav";
+
             InitializeComponent();
+            //button2.Click += button2_Click;
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -26,19 +31,28 @@ namespace new_ga_e
 
         private void LoadGame(object sender, EventArgs e)
         {
-            Form1 videoWindow = new Form1();
+            Audi_Cantum videoWindow = new Audi_Cantum();
             videoWindow.Show();
             this.Hide();
         }
 
         private void StartMenu_Load(object sender, EventArgs e)
         {
-
+           player.PlayLooping();
+           
         }
 
         private void StartMenu_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+          
+           player.Stop();
+
+
         }
     }
 }

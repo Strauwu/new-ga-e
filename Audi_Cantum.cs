@@ -12,14 +12,14 @@ using new_ga_e.View;
 
 namespace new_ga_e
 {
-    public partial class Form1 : Form
+    public partial class Audi_Cantum : Form
     {
         public Image playerSheet;
         public PlayerEntity player;
         public Audio audi;
         bool repeat = true;
 
-        public Form1()
+        public Audi_Cantum()
         {
             InitializeComponent();
 
@@ -41,6 +41,8 @@ namespace new_ga_e
             player = new PlayerEntity(120, 110, PlayerEntity.rightFrame, playerSheet);
             audi = new Audio(10);
             timer1.Start();
+            
+
         }
 
         private void OnPaint(object sender, PaintEventArgs e)
