@@ -33,12 +33,18 @@ namespace new_ga_e
         {
             Audi_Cantum videoWindow = new Audi_Cantum();
             videoWindow.Show();
+            //if (videoWindow.HealedCount ==1)
+            //{
+            //    player.Stop();
+            //}
             this.Hide();
         }
 
         private void StartMenu_Load(object sender, EventArgs e)
         {
+            
            player.PlayLooping();
+          
            
         }
 

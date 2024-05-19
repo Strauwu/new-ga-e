@@ -10,16 +10,17 @@ namespace new_ga_e.AudioGame
     public class Audio
     {
         public static int powerOfNoise;
-        public static Image audiobar;
+        public int sred;
+
         public WaveInEvent waveIn = new WaveInEvent
         {
             DeviceNumber = 0,
             WaveFormat = new WaveFormat(rate: 44100, bits: 16, channels: 1),
             BufferMilliseconds = 30
         };
-        public Audio( int power)
+        public Audio()
         {
-            powerOfNoise = power;
+            powerOfNoise = 0;
         }
         public void Recording()
         {
@@ -36,13 +37,15 @@ namespace new_ga_e.AudioGame
         {
             waveIn.StopRecording();
         }
+
+
      
         public void WaveIn_DataAvailable(object? sender, WaveInEventArgs e)
         {
             Int16[] values = new Int16[e.Buffer.Length / 2];
             Buffer.BlockCopy(e.Buffer, 0, values, 0, e.Buffer.Length);
-            float fraction = (float)values.Max() / 32768;
-            powerOfNoise = (int)(fraction*850);
+            float fraction = (float)values.Max()/10;
+            powerOfNoise = (int)(fraction);
 
         }
     }

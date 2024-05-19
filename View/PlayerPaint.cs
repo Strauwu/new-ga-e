@@ -1,12 +1,16 @@
 ﻿
 using System;
+using System.Collections.Generic;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 using new_ga_e.AudioGame;
+using new_ga_e.Models;
+using new_ga_e.View;
 
 namespace new_ga_e.Entities
 {
-    public class PlayerEntity
+    public partial class PlayerPaint
     {
         public int posX;
         public int posY;
@@ -26,10 +30,11 @@ namespace new_ga_e.Entities
         public static int rightFrame = 12;
 
         public int size;
+        public PlayerPaint player;
 
         public Image spriteSheet;
 
-        public PlayerEntity(int posX, int posY, int rightFrame, Image spriteSheet)
+        public PlayerPaint(int posX, int posY, int rightFrame, Image spriteSheet)
         { 
             this.posX = posX;
             this.posY = posY;
@@ -54,9 +59,9 @@ namespace new_ga_e.Entities
                 currentFrame++;
             else
                 currentFrame = 0;
-            g.DrawImage(spriteSheet, new Rectangle(new Point(posX,posY), new Size(size, size)),32*currentFrame, 32*currentAnimation, size, size, GraphicsUnit.Pixel);
+            g.DrawImage(spriteSheet, new Rectangle(new Point(posX, posY), new Size(size, size)), 32 * currentFrame, 32 * currentAnimation, size, size, GraphicsUnit.Pixel);
         }
-      
+
         public void SetAnimationConfiguration(int currentAnimation)
         {
             this.currentAnimation = currentAnimation;
@@ -66,7 +71,7 @@ namespace new_ga_e.Entities
                 case 0:
                     currentLimit = countFrames;
                     break;
-                case 1 :
+                case 1:
                     currentLimit = countFrames;
                     break;
                 case 2:

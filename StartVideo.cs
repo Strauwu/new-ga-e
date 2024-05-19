@@ -16,6 +16,8 @@ namespace new_ga_e
     {
         string mp4Path;
         StartMenu gameWindow = new StartMenu();
+        EndGame end = new EndGame();
+
 
         bool IsSkipped = false;
         public StartVideo()
@@ -31,6 +33,7 @@ namespace new_ga_e
                 this.Controls.Remove(axWindowsMediaPlayer1);
                 gameWindow.Show();
                 this.Hide();
+                
             }
         }
 
@@ -42,8 +45,10 @@ namespace new_ga_e
             this.Hide();
 
             gameWindow.Show();
-            
-           
+            //end.Show();
+
+
+
 
 
         }
@@ -53,15 +58,15 @@ namespace new_ga_e
             mp4Path = (Path.Combine(new DirectoryInfo(Directory.GetCurrentDirectory()).Parent.Parent.FullName.ToString(), "sprites\\vidd.mp4"));
 
             axWindowsMediaPlayer1.URL = mp4Path;
+            
             axWindowsMediaPlayer1.enableContextMenu = false;
-
         }
 
         private void StartVideo_Load(object sender, EventArgs e)
         {
             axWindowsMediaPlayer1.settings.autoStart = true;
-         
             axWindowsMediaPlayer1.uiMode = "none";
+            
 
         }
 

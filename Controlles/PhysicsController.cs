@@ -6,13 +6,13 @@ namespace new_ga_e.Controlles
 {
     public static class PhysicsController
     {
-        public static bool IsCollide(PlayerEntity entity, Point dir)
+        public static bool IsCollide(PlayerPaint entity, Point dir)
         {
-            if (entity.posX + dir.X <= 0 || entity.posX + dir.X >= MapModel.cellSize * (MapModel.mapWidth-1) || entity.posY + dir.Y <= 0 || entity.posY + dir.Y >= MapModel.cellSize * (MapModel.mapHeight-1))
+            if (entity.posX + dir.X <= 0 || entity.posX + dir.X >= MapPaint.cellSize * (MapPaint.mapWidth-1) || entity.posY + dir.Y <= 0 || entity.posY + dir.Y >= MapPaint.cellSize * (MapPaint.mapHeight-1))
                 return true;
-            for (int i = 0; i < MapModel.mapObjects.Count; i++)
+            for (int i = 0; i < MapPaint.mapObjects.Count; i++)
             {
-                var currentObject = MapModel.mapObjects[i];
+                var currentObject = MapPaint.mapObjects[i];
                 PointF delta = new PointF();
                 delta.X = (entity.posX + entity.size / 2) - (currentObject.position.X + currentObject.size.Width / 2);
                 delta.Y = (entity.posY + entity.size / 2) - (currentObject.position.Y + currentObject.size.Height / 2);
