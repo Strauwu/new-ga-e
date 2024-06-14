@@ -1,0 +1,366 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|c:\\users\\\u0432\u0430\u0440\u0432\u0430\u0440\u0430\\downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\audi_cantum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:audi_cantum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\view\\playerpaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:view\\playerpaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\view\\paintaudiogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:view\\paintaudiogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\controlles\\npcnhero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:controlles\\npcnhero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\controlles\\physicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:controlles\\physicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\view\\npcpaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:view\\npcpaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\view\\mappaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:view\\mappaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\audi_cantum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:audi_cantum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\view\\painttimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:view\\painttimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\startvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:startvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\startvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:startvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\endgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:endgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\endgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:endgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\models\\npcentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:models\\npcentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\models\\mapobjectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:models\\mapobjectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\controlles\\healsibiling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:controlles\\healsibiling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\controlles\\audio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:controlles\\audio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\audi_cantum.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4562872E-624D-49AD-B466-6BF449C8F68A}|audi-cantum.csproj|solutionrelative:audi_cantum.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Audi_Cantum.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Audi_Cantum.cs",
+              "RelativeDocumentMoniker": "Audi_Cantum.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Audi_Cantum.cs",
+              "RelativeToolTip": "Audi_Cantum.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwFMAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:02:33.89Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerPaint.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\View\\PlayerPaint.cs",
+              "RelativeDocumentMoniker": "View\\PlayerPaint.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\View\\PlayerPaint.cs",
+              "RelativeToolTip": "View\\PlayerPaint.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T11:25:03.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NpcPaint.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\View\\NpcPaint.cs",
+              "RelativeDocumentMoniker": "View\\NpcPaint.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\View\\NpcPaint.cs",
+              "RelativeToolTip": "View\\NpcPaint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:25:46.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PhysicsController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Controlles\\PhysicsController.cs",
+              "RelativeDocumentMoniker": "Controlles\\PhysicsController.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Controlles\\PhysicsController.cs",
+              "RelativeToolTip": "Controlles\\PhysicsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T06:03:43.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "npcNhero.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Controlles\\npcNhero.cs",
+              "RelativeDocumentMoniker": "Controlles\\npcNhero.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Controlles\\npcNhero.cs",
+              "RelativeToolTip": "Controlles\\npcNhero.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:44:56.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaintAudioGame.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\View\\PaintAudioGame.cs",
+              "RelativeDocumentMoniker": "View\\PaintAudioGame.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\View\\PaintAudioGame.cs",
+              "RelativeToolTip": "View\\PaintAudioGame.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:00:22.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MapPaint.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\View\\MapPaint.cs",
+              "RelativeDocumentMoniker": "View\\MapPaint.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\View\\MapPaint.cs",
+              "RelativeToolTip": "View\\MapPaint.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T05:25:53.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Audi_Cantum.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Audi_Cantum.cs",
+              "RelativeDocumentMoniker": "Audi_Cantum.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Audi_Cantum.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Audi_Cantum.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:26:51.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaintTimer.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\View\\PaintTimer.cs",
+              "RelativeDocumentMoniker": "View\\PaintTimer.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\View\\PaintTimer.cs",
+              "RelativeToolTip": "View\\PaintTimer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T07:29:09.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StartMenu.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\StartMenu.cs",
+              "RelativeDocumentMoniker": "StartMenu.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\StartMenu.cs",
+              "RelativeToolTip": "StartMenu.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:18:51.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StartMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\StartMenu.cs",
+              "RelativeDocumentMoniker": "StartMenu.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\StartMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "StartMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:18:50.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StartVideo.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\StartVideo.cs",
+              "RelativeDocumentMoniker": "StartVideo.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\StartVideo.cs",
+              "RelativeToolTip": "StartVideo.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:14:30.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StartVideo.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\StartVideo.cs",
+              "RelativeDocumentMoniker": "StartVideo.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\StartVideo.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "StartVideo.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:14:28.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EndGame.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\EndGame.cs",
+              "RelativeDocumentMoniker": "EndGame.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\EndGame.cs",
+              "RelativeToolTip": "EndGame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:23:30.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EndGame.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\EndGame.cs",
+              "RelativeDocumentMoniker": "EndGame.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\EndGame.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "EndGame.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:23:26.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:32:03.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NpcEntity.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Models\\NpcEntity.cs",
+              "RelativeDocumentMoniker": "Models\\NpcEntity.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Models\\NpcEntity.cs",
+              "RelativeToolTip": "Models\\NpcEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T13:01:47.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MapObjectModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Models\\MapObjectModel.cs",
+              "RelativeDocumentMoniker": "Models\\MapObjectModel.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Models\\MapObjectModel.cs",
+              "RelativeToolTip": "Models\\MapObjectModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T11:35:15.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HealSibiling.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Controlles\\HealSibiling.cs",
+              "RelativeDocumentMoniker": "Controlles\\HealSibiling.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Controlles\\HealSibiling.cs",
+              "RelativeToolTip": "Controlles\\HealSibiling.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T11:31:24.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Audio.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Controlles\\Audio.cs",
+              "RelativeDocumentMoniker": "Controlles\\Audio.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Controlles\\Audio.cs",
+              "RelativeToolTip": "Controlles\\Audio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:47:35.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Audi_Cantum.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Audi_Cantum.Designer.cs",
+              "RelativeDocumentMoniker": "Audi_Cantum.Designer.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0440\u0432\u0430\u0440\u0430\\Downloads\\audi-cantum\\24\u0430\u0443\u0434\u0438\\Audi_Cantum.Designer.cs",
+              "RelativeToolTip": "Audi_Cantum.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:48:51.245Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
